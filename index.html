@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Designer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="nav-bar">
+        <span>Form Designer</span>
+        <button id="save-btn">Save</button>
+    </div>
+    <div id="container">
+        <div id="sidebar">
+            <h3 style="text-align: center;">Components</h3>
+            <div class="component">
+                <input type="text" placeholder="Input" id="input-field" class="input" />
+                <span id="input-add-btn" class="add-btn">+</span>
+            </div>
+            <div class="component">
+                <input type="text" placeholder="Select" id="select-field" class="input" />
+                <span id="select-add-btn" class="add-btn">+</span>
+            </div>
+            <div class="component">
+                <input type="text" placeholder="TextArea" id="textarea-field" class="input" />
+                <span id="textarea-add-btn" class="add-btn">+</span>
+            </div>
+            <div class="component">
+                <input type="text" placeholder="CheckBox" id="checkbox-field" class="input" />
+                <span id="checkbox-add-btn" class="add-btn">+</span>
+            </div>
+        </div>
+        <div id="main-container">
+            <!-- Form elements will be rendered here -->
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

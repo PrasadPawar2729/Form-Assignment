@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#nav-bar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar span {
+    font-size: 1.5em;
+}
+
+#container {
+    display: flex;
+}
+
+#sidebar {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar h3 {
+    margin-top: 0;
+}
+
+.component {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.add-btn {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-btn:hover {
+    background-color: #4cae4c;
+}
+
+#main-container {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#main-container div {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-container div label {
+    flex: 1;
+}
+
+#main-container div input,
+#main-container div select,
+#main-container div textarea {
+    flex: 2;
+}
+
+#main-container div button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#main-container div button:hover {
+    background-color: #c9302c;
+}
+
+.draggable {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    cursor: grab;
+}
+
+.draggable.dragging {
+    opacity: 0.5;
+}
